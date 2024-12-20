@@ -15,7 +15,7 @@ const MainPage = () => {
                 <span>Resume Builder Ultimate</span>
                 <br />
                 <span className="relative bg-gradient-to-r from-brand-700 to-brand-800 text-transparent bg-clip-text">
-                  Build AI Powered Professional Resumes
+                  Build AI Powered Professional Resumes in under 2 mins
                 </span>
               </Heading>
             </div>
@@ -53,10 +53,26 @@ const MainPage = () => {
           </div>
         </MaxWidthWrapper>
       </section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
+      <section>
+        <MaxWidthWrapper className="text-center">
+          <div>Section 2 goes here</div>
+        </MaxWidthWrapper>
+      </section>
+      <section>
+        <MaxWidthWrapper className="text-center">
+          <div>Section 3 goes here</div>
+        </MaxWidthWrapper>
+      </section>
+      <section>
+        <MaxWidthWrapper className="text-center">
+          <div>Section 4 goes here</div>
+        </MaxWidthWrapper>
+      </section>
+      <section>
+        <MaxWidthWrapper className="text-center">
+          <div>Section 5 goes here</div>
+        </MaxWidthWrapper>
+      </section>
     </>
   );
 };
